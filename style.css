@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+body {
+    background-color: #000000;
+}
+
+header {
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+    align-content: ;
+}
+
+/*barra de navegação*/
+
+.nav-links li {
+    display: inline;
+    margin-left: 13px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 19px;
+}
+
+.nav-links li a:hover {
+    color: #ffffff;
+    transition: .1s;
+}
+
+.nav-links li.selected a {
+    color: #ffffff;
+}
+
+.fieltorcedor {
+    width: 75px;
+}
+
+/*fonte*/
+
+.oswald-uniquifier {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+  
