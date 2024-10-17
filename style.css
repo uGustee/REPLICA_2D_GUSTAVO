@@ -11,7 +11,7 @@ header {
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 150px;
-    align-content: ;
+    align-content: center;
 }
 
 /*barra de navegação*/
@@ -36,6 +36,16 @@ header {
     color: #ffffff;
 }
 
+.planos {
+    float: left;
+}
+
+.login-cadastre {
+    padding-right: 400px;
+    display: flex;
+    float: right;
+}
+
 .fieltorcedor {
     width: 75px;
 }
@@ -48,5 +58,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+
 
   
