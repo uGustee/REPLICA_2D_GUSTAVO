@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Sketch&display=swap');
 
 body {
     background-color: #000000;
@@ -47,7 +47,25 @@ header {
 }
 
 .fieltorcedor {
-    width: 75px;
+    width: 90px;
+}
+
+/*corpo*/
+
+.amarelo-p {
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 599;
+    font-size: 20px;
+}
+
+.amarelo-footer {
+    background-color: rgba(255, 224, 124, 0.514);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-color: rgb(255, 196, 0);
+    border-radius: 2%;
 }
 
 /*fonte*/
@@ -58,6 +76,18 @@ header {
   font-weight: 300;
   font-style: normal;
 }
+
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+  }
+
+
+  
 
 
   
