@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Londrina+Sketch&display=swap');
 
 body {
-    background-color: #000000;
+    background-image: url('https://cdn.discordapp.com/attachments/558041829497634837/1296925824938676234/torcida-corinthians-timao-libertadores-20130516-002-original3.png?ex=67140fcc&is=6712be4c&hm=1231d093809fde46c5ab13bb4be53d2a5e59e8142e6e461bbc0325862f3de4a5&');
 }
 
 header {
-    color: #000000;
+    background-color: #000000;
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 150px;
@@ -50,6 +50,10 @@ header {
     width: 90px;
 }
 
+.barra-nav {
+    background-color: #000000;
+}
+
 /*corpo*/
 
 .amarelo-p {
@@ -66,6 +70,55 @@ header {
     margin-right: 350px;
     border-color: rgb(255, 196, 0);
     border-radius: 2%;
+}
+
+.container-planos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.janela {
+    width: 250px;
+    height: 400px;
+    background-color: #e2e2e2;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.janela img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.janela h2 {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+}
+
+.janela p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #777;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c2a16f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
 /*fonte*/
